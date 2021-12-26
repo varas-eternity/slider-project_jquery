@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Slider jQuery</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<h1 class="title">Slider jQuery</h1>
+	</div>
+
+	<div class="carousel">
+
+		<div class="slides">
+			<div class="slides__item active"></div>
+			<div class="slides__item"></div>
+			<div class="slides__item"></div>
+			<div class="slides__item"></div>
+			<div class="slides__item"></div>
+		</div>
+
+		<div class="controls">
+			<div class="controls__item controls__prev">
+				<i class="fas fa-chevron-left"></i>
+			</div>
+			<div class="controls__item controls__next">
+				<i class="fas fa-chevron-right"></i>
+			</div>
+		</div>
+
+		<div class="indicators">
+			<span class="indicators__pause"><i class="fas fa-play"></i></span>
+			<span class="indicators__item active" data-slide-to="0">1</span>
+			<span class="indicators__item" data-slide-to="1">2</span>
+			<span class="indicators__item" data-slide-to="2">3</span>
+			<span class="indicators__item" data-slide-to="3">4</span>
+			<span class="indicators__item" data-slide-to="4">5</span>
+		</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
